@@ -19,10 +19,10 @@
 
 | Student Name | Student Email | GitHub Username | Student's role |
 |    ---     |     ---     |     ---       |  --- |
-| Joshua Boelman     | jdoe@mail.sfsu.edu              |   ColeBoel              |  Team Leader |
+| Joshua Boelman     | fixjhjhjdfh             |   ColeBoel              |  Team Leader |
+| Madeleine De Mesa    | mdemesa@mail.sfsu.edu              |  nnfp              |  Scrum Master |
 | Kenneth Galang    | kgalang2@mail.sfsu.edu              |   kenpaso              |  Github Master |
 | Elizabeth Kirwan   | ekirwan@mail.sfsu.edu             |   ekirwan             |  Front end |
-| Madeleine De Mesa    | mdemesa@mail.sfsu.edu              |  nnfp              |  Scrum Master |
 | Tony Tran    | ttran38@mail.sfsu.edu             |   TonyT415              |  Front end |
 | Jack Deremiah    | jderemiah@mail.sfsu.edu             |   jackderemiah             |  Back end |
 
