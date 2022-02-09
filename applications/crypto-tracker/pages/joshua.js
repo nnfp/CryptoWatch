@@ -1,7 +1,7 @@
 import Head from "next/head";
 import IndividualPage from "../components/IndividualPage";
 import pic from "../assets/MenLAdy.jpg"
-export default function TestPage() {
+export default function Joshua() {
   return (
     <div>
       <Head>
@@ -10,7 +10,7 @@ export default function TestPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <IndividualPage name="Joshua Cole Boelman" role="Team Lead" 
-      animal="Seals" picture={pic}/>
+      animal="Falcon" picture={pic}/>
     </div>
   );
 }

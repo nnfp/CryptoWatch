@@ -9,7 +9,7 @@ const AboutPage = () => {
       </div>
       <div className={styles.aboutDiv}>
       <div className={styles.grid}>
-          <Link href="/">
+          <Link href="/joshua">
             <a className={styles.card}>
               <h2>Joshua Boelman</h2>
               <p>Team Leader</p>
