@@ -23,7 +23,7 @@ const AboutPage = () => {
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/madeleine">
             <a className={styles.card}>
               <h2>Madeleine De Mesa</h2>
               <p>Scrum Master</p>
