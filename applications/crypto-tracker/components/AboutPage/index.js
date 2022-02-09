@@ -30,7 +30,7 @@ const AboutPage = () => {
             </a>
           </Link>
           
-          <Link href="/">
+          <Link href="/elizabeth">
             <a className={styles.card}>
               <h2>Elizabeth Kirwan </h2>
               <p>Front end</p>
