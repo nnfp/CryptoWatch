@@ -37,7 +37,7 @@ const AboutPage = () => {
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/jack">
             <a className={styles.card}>
               <h2>Jack Deremiah</h2>
               <p>Back end</p>
