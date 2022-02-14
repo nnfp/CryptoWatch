@@ -1,6 +1,6 @@
 import styles from "./KennethPage.module.css";
 import Image from "next/image";
-import pic from "../../assets/kennethpic.jpg";
+import pic from "../../public/assets/kennethpic.jpg";
 const KennethPage = () => {
   return (
     <>

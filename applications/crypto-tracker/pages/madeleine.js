@@ -1,6 +1,6 @@
 import Head from "next/head";
 import IndividualPage from "../components/IndividualPage";
-import pic from "../assets/bunny.jpg"
+import pic from "../public/assets/bunny.jpg"
 export default function TestPage() {
   return (
     <div>

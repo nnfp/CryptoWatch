@@ -1,6 +1,6 @@
 import Head from "next/head";
 import IndividualPage from "../components/IndividualPage";
-import pic from "../assets/lightningFalse.png"
+import pic from "../public/assets/lightningFalse.png"
 export default function TestPage() {
   return (
     <div>
