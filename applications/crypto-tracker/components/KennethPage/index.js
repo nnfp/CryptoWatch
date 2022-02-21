@@ -1,6 +1,6 @@
 import styles from "./KennethPage.module.css";
 import Image from "next/image";
-// import pic from "../../public/assets/kennethpic.jpg";
+import pic from "../../public/assets/kennethpic.jpg";
 const KennethPage = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const KennethPage = () => {
             <h1>Kenneth Galang</h1>
           </header>
           <div>
-            {/* <Image src={pic} width="300px" height="300px" /> */}
+            <Image src={pic} width="300px" height="300px" />
             <br />
             <label>Github Master</label>
             <br />

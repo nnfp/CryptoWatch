@@ -14,7 +14,7 @@ const IndividualPage = (props) => {
             <h1>{name}</h1>
           </header>
           <div>
-            {/* <Image src={picture} width="300px" height="300px" /> */}
+            <Image src={picture} width="300px" height="300px" />
             <br />
             <label>{role}</label>
             <br />
