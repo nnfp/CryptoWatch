@@ -1,6 +1,6 @@
 import Head from "next/head";
 import IndividualPage from "../components/IndividualPage";
-import pic from "../public/assets/MenLAdy.jpg"
+import pic from "../public/assets/thanos.jpg"
 export default function Joshua() {
   return (
     <div>
