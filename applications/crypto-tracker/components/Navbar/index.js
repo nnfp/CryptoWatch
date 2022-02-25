@@ -35,6 +35,13 @@ const Navbar = () => {
             <Link href="/" passHref>
               <a
                 className={styles.link}
+              >
+                Dashboard
+              </a>
+            </Link>
+            <Link href="/" passHref>
+              <a
+                className={styles.link}
                 onClick={() => supabase.auth.signOut()}
               >
                 Logout
