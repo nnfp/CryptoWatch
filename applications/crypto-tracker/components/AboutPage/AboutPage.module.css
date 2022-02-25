@@ -1,13 +1,14 @@
 .aboutTopDiv {
-  background-color: #00ADB5;
-  height: 100px;
+  background-color: #EEEEEE;
+  height: 50px;
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-top: 30px;
 }
 
 .aboutDiv {
-  min-height: 60vh;
+  min-height: 50px;
   background-color: #EEEEEE;
   /* padding: 4rem 0; */
   flex: 1;
@@ -18,7 +19,7 @@
   padding: 0 2rem;
 }
 
-.aboutH1 {
+.aboutH2 {
   margin: auto;
 }
 

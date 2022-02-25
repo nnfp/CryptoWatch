@@ -1,6 +1,6 @@
 import styles from "./IndividualPage.module.css";
 import Image from "next/image";
-
+import Navbar from "../Navbar";
 const IndividualPage = (props) => {
   const name = props.name;
   const role = props.role;
