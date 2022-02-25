@@ -10,11 +10,11 @@ const IndividualPage = (props) => {
     <>
       <div className={styles.color}>
         <div className={styles.center}>
-          <header>
+          <header className={styles.header}>
             <h1>{name}</h1>
           </header>
           <div>
-            <Image src={picture} width="300px" height="300px" />
+            <Image src={picture} width="320px" height="320px" />
             <br />
             <label>{role}</label>
             <br />

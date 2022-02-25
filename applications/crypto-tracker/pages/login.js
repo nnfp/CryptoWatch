@@ -3,7 +3,7 @@ import { supabase } from '../utils/supabaseClient'
 import Auth from '../components/Auth'
 import Account from '../components/Account'
 
-export default function Home() {
+export default function Login() {
   const [session, setSession] = useState(null)
 
   useEffect(() => {
@@ -16,9 +16,7 @@ export default function Home() {
 
   return (
     <div className="container" style={{ padding: '50px 0 100px 0' }}>
-      {/* {!session ? <Auth /> : <Account key={session.user.id} session={session} />} */}
-      <h2>hi home page</h2>
-      {!session ? <h2>hi</h2> : <h2>logged</h2>}
+      {!session ? <Auth /> : <Account key={session.user.id} session={session} />}
     </div>
   )
 }
