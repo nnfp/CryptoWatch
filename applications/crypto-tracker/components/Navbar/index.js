@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "../../public/assets/spectacoins-crop.png";
 import { supabase } from "../../utils/supabaseClient";
 import { useState, useEffect } from "react";
+import pic from "../../public/assets/banana.gif"
 const Navbar = () => {
   const [session, setSession] = useState(null);
 
@@ -53,6 +54,9 @@ const Navbar = () => {
             <a className={styles.link}>Login</a>
           </Link>
         )}
+        <div className={styles.hamburger}>
+          <Image src={pic} ></Image>
+        </div>
       </div>
     </nav>
   );
