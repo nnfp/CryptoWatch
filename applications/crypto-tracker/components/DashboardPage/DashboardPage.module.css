@@ -1,0 +1,31 @@
+.searchDiv {
+    height: 250px;
+    /* background-color: #5e0c0c; */
+    padding: auto;
+    display: flex;
+  }
+
+  .searchBox {
+    width: 350px;
+    height :200px;
+    background-color: #dadada;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #393E46;
+    border-radius: 8px;
+  }
+
+  .grid {
+    /* background-color: blue; */
+  
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    padding-left:10px;
+
+    flex-wrap: wrap;
+    /* max-width: 1200px; */
+  }

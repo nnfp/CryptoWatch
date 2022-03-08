@@ -32,7 +32,7 @@ const Navbar = () => {
         </Link>
         {session ? (
           <>
-            <Link href="/" passHref>
+            <Link href="/dashboard" passHref>
               <a
                 className={styles.link}
               >
