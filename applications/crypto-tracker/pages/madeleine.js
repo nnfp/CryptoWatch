@@ -1,7 +1,7 @@
 import Head from "next/head";
 import IndividualPage from "../components/IndividualPage";
 import pic from "../public/assets/bunny.jpg"
-export default function TestPage() {
+export default function Madeleine() {
   return (
     <div>
       <Head>

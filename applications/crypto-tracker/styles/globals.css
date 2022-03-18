@@ -16,3 +16,7 @@ a {
   margin: 0;
   box-sizing: border-box;
 }
+/* login page */
+h1.header, p.description{
+  padding-bottom: 10px;
+}

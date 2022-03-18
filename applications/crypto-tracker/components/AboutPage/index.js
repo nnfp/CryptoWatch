@@ -8,6 +8,7 @@ const AboutPage = () => {
         <h1 className={styles.aboutH1}>About Us</h1>
       </div>
       <div className={styles.aboutDiv}>
+      <h2 className={styles.aboutH2}>Meetings: Mon @ 5:30PM | Wed @ 1:00PM</h2>
       <div className={styles.grid}>
           <Link href="/joshua">
             <a className={styles.card}>

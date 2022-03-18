@@ -1,7 +1,7 @@
 import Head from "next/head";
 import IndividualPage from "../components/IndividualPage";
 import pic from "../public/assets/LightningFalse.png"
-export default function TestPage() {
+export default function Tony() {
   return (
     <div>
       <Head>

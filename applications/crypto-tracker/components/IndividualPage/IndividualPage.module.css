@@ -1,21 +1,21 @@
 .color{
     padding-top: 5%;
     background-color: #EEEEEE;
-    height: 100vh;
+    height: 80vh;
 }
 
 
 .center {
   background-color: #ffffff;
   margin: auto;
-  width: 325px;
+  width: 335px;
   padding: 10px;
   box-shadow: 8px 8px 20px 1px #494949;
   border-radius: 5px;
 }
 
 .header {
-  font-family: "sans-serif";
+  /* font-family: "sans-serif"; */
   display: flex;
   justify-content: center;
 }
