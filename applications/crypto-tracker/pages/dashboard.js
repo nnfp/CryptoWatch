@@ -2,7 +2,11 @@ import Head from "next/head";
 
 import DashboardPage from "../components/DashboardPage";
 
+<<<<<<< HEAD
+export default function Dashboard() {
+=======
 export default function Dashboard({data}) {
+>>>>>>> b5f9f38b763975e72c5912f5e04e6a15a713c86b
   
   return (
     <div>
