@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { supabase } from '../utils/supabaseClient'
 
-
 export default function Auth() {
   const [loading, setLoading] = useState(false)
   const [email, setEmail] = useState('')
@@ -24,11 +23,12 @@ export default function Auth() {
       <div className="col-6 form-widget">
         <h1 className="header">Welcome back!</h1>
         <p className="description">Login in via magic link with your email</p>
-        <div>
+        <div className="loginField">
+          <img className="emailIcon" src="../assets/email.png"/>
           <input
-            className="inputField"
+            className="inputField loginInput"
             type="email"
-            placeholder="Your email"
+            placeholder="Your email address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -39,7 +39,7 @@ export default function Auth() {
               e.preventDefault()
               handleLogin(email)
             }}
-            className="button block"
+            className="button block loginButton"
             disabled={loading}
           >
             <span>{loading ? 'Loading' : 'Send magic link'}</span>
