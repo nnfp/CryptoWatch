@@ -1,0 +1,81 @@
+.container{
+  width: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgb(38, 140, 165); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginContainer {
+  width: 300px;
+  height: 250px;
+  /* background-color: red; */
+
+  
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.description {
+  padding-left: 4px;
+  margin-bottom: 10px;
+  color: rgb(117, 117, 117);
+  font-weight: 500;
+}
+.loginField {
+  height: 40px;
+  width: 290px;
+  background-color: white;
+  margin: auto;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.emailIcon {
+  padding-left: 10px;
+  max-height: 25px;
+}
+
+.loginField:focus-within {
+  border:1px solid;
+  border-color: #00adb5b3;
+
+box-shadow: 0 0 8px 1px (0, 173, 181); /* All the borders by using the spread properties */
+}
+.loginInput {
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  width: 80%;
+  height: 100%;
+}
+
+.buttonDiv{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.loginButton {
+  background-color: #00ADB5;
+  color: #ffffff;
+  border-color: #00ADB5;
+  border-style: solid;
+  height: 40px;
+  width: 290px;
+  margin-top: 10px;
+  border-radius:6px;
+  font-weight: 540;
+}
+

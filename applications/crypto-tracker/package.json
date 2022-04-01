@@ -10,10 +10,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^1.30.0",
     "add": "^2.0.6",
-<<<<<<< HEAD
     "axios": "^0.26.1",
-=======
->>>>>>> b5f9f38b763975e72c5912f5e04e6a15a713c86b
     "isomorphic-fetch": "^3.0.0",
     "next": "^12.0.10",
     "react": "^17.0.2",
