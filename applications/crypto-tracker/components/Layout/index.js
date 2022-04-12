@@ -2,10 +2,11 @@ import Navbar from "../Navbar";
 import NavMobileDrop from "../NavMobileDrop";
 import NavMobile from "../NavMobile";
 
-export default function Layout({children}){
-    return(
+export default function Layout({ children }) {
+    return (
         <div>
-            <Navbar />
+            <Navbar/>
+            
             <NavMobile>
          
                     <NavMobileDrop/>

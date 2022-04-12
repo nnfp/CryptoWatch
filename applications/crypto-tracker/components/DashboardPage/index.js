@@ -72,7 +72,7 @@ const DashboardPage = () => {
       <div className={styles.searchDiv}>
         <div className={styles.searchBox}>
         <Image src={logo}  className={styles.img}/>
-          <div>
+          <div className={styles.contentDiv}>
             <input className={styles.searchInput}type="text" placeholder="Spectate a coin: btc, eth, doge" onChange={handleChange} />
             <button className={styles.searchButton} onClick={handleSubmit}>Search</button>
           </div>

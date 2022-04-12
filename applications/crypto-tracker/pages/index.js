@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Head from "next/head";
 import { supabase } from '../utils/supabaseClient'
+import Homepage from "../components/Homepage";
 
 
 export default function Home() {
@@ -23,8 +24,8 @@ export default function Home() {
       </Head>
     <div className="container" style={{ padding: '50px 0 100px 0' }}>
       {/* {!session ? <Auth /> : <Account key={session.user.id} session={session} />} */}
-      <h2>hi home page</h2>
-      {!session ? <h2>hi</h2> : <h2>logged</h2>}
+      <Homepage />
+      {/*!session ? <h2>hi</h2> : <h2>logged</h2>*/}
     </div>
     </>
   )

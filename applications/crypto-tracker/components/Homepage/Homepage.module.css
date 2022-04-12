@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   /* border: 2px solid #393E46;
-    border-radius: 8px; */
+      border-radius: 8px; */
 }
 
 .searchInput {
@@ -54,32 +54,30 @@
 }
 
 .grid {
-
   display: flex;
   align-items: flex-start;
-  /* justify-content: center; */
 
   flex-wrap: wrap;
   max-width: 1400px;
 
 }
 
-.right-part {
-  margin-left: auto;
-}
-
 .contentDiv {
+
   display: flex;
   justify-content: center;
 
 }
 
 .img {
+
   pointer-events: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
+
+
 
 @media screen and (min-width: 1400px) and (max-width: 3000px) {
   .grid {
