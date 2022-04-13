@@ -22,7 +22,7 @@ const Auth = () => {
   return (
   <>
   <div className={styles.container}>
-     <h1 className={styles.header}>Login in via magic link</h1>
+     <h1 className={styles.loginHeader}>Login in via magic link</h1>
 
     <div className={styles.loginContainer}>
         <p className={styles.description}>
