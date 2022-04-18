@@ -1,0 +1,61 @@
+h1.header, p.description{
+    padding-bottom: 10px;
+  }
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column;
+}
+.description {
+  margin-bottom: 12px;
+  color: gray;
+}
+.loginForm{
+  display: block;
+  width: 100%;
+  border-color: #00ADB5b3;
+  text-align: center;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.loginFieldset{
+  border-radius: 8px;
+    text-align: center;
+    color: #00ADB5;
+    background-color: #ffffff;
+    border-color: #00ADB5b3;
+      border-style: solid;
+      border-width: 2px;
+    box-shadow: 12px 12px 3px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    padding: 5px 12px 10px;
+}
+.loginInput{
+  border-style: none;
+  padding: 5px 12px;
+  margin-bottom: 5px;
+    color: #00ADB5;
+    width: 70%;
+  }
+
+.loginButton{
+  background-color: #00ADB5;
+  color: #ffffff;
+  border-color: #00ADB5b3;
+      border-style: solid;
+  width: 80%;
+  padding: 5px 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+img.emailIcon{
+  padding-left:30px;
+  max-height: 25px;
+}
+.loginField {
+  display: flex;
+  align-items: center;
+}

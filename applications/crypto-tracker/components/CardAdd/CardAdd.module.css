@@ -8,8 +8,8 @@
     border-radius: 8px;
     transition: color 0.15s ease, border-color 0.15s ease;
     width: 300px;
-    height: 200px;
-    box-shadow: 6px 5px 10px 2px #919191;
+    height: 210px;
+    box-shadow: 6px 5px 10px 2px #d6d4d4;
   }
   
   /* .card:hover,
@@ -30,4 +30,21 @@
     line-height: 1.5;
   }
 
-  
+  .card input {
+    display:block;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+   
+  }
+
+
+  .buttonDiv{
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonDiv button {
+    margin-top: 10px;
+    width: 60px;
+  }

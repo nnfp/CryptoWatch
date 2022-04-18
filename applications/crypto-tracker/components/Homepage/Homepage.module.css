@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   /* border: 2px solid #393E46;
-    border-radius: 8px; */
+      border-radius: 8px; */
 }
 
 .searchInput {
@@ -53,14 +53,27 @@
   cursor: pointer;
 }
 
-.grid {
+.invalid{
+  text-align: center;
+  color: red;
+  animation: 0.2s;
+  animation-name: wiggle;
+}
 
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 25% { transform: rotate(5deg); }
+ 50% { transform: rotate(-5deg); }
+ 75% { transform: rotate(5deg); }
+100% { transform: rotate(0deg); }
+}
+
+.grid {
   display: flex;
   align-items: flex-start;
-  /* justify-content: center; */
 
   flex-wrap: wrap;
-  /*max-width: 1400px;*/
+  max-width: 1400px;
 
 }
 .container {
@@ -70,14 +83,10 @@
   width: 100%;
   grid-gap: 10px;
   justify-content: center;
-}
-
-.right-part {
-  margin-left: auto;
+  max-width: 1400px;
 }
 
 .contentDiv {
-  
   display: flex;
   justify-content: center;
   margin-left: 1rem;
@@ -85,6 +94,7 @@
 }
 
 .img {
+
   pointer-events: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -94,28 +104,30 @@
 
 @media screen and (min-width: 3000px){  
     
-  .contentDiv {
-    width: 100%;
-    justify-content: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: 1rem;
-
-  }
-  .grid{
-    width:100%;
-  }
-
+      .contentDiv {
+        width: 100%;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin: 1rem;
+    
+    
+    
+      
+  
+}
 }
 @media screen and (min-width: 1400px) and (max-width: 3000px) {
   .grid {
     width: 1330px;
+    
   }
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1400px) {
   .grid {
-    width: 1000px;
+   width: 1000px;
+  
   }
 }
 

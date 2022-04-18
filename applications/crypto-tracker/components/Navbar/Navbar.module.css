@@ -23,3 +23,9 @@
 .linkdiv{
     margin-right: 55px;
 }
+
+@media (max-width: 800px) {
+   .navbar{
+       display: none;
+   }
+}
