@@ -53,6 +53,11 @@ Instructions:
 		$   cd var/www/html/applications/crypto-tracker
 		$   yarn
 		$   yarn next build
+		$   pm2 list
+		
+			* if there is more than 1 process running 
+			* --> pm2 kill
+			
 		$   pm2 start npm --name "crypto-tracker" -- start
 	
 
