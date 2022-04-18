@@ -53,9 +53,8 @@ const Homepage = () => {
                 <HomepageCard crypto={"eth"} price={data?.data.amount} />
                 <HomepageCard crypto={"avax"} price={data?.data.amount} />
                 <HomepageCard crypto={"ada"} price={data?.data.amount} />
-                <HomepageCard crypto={"doge"} price={data?.data.amount} />
+                <HomepageCard crypto={"link"} price={data?.data.amount} />
                 <HomepageCard crypto={"usdt"} price={data?.data.amount} />
-                
                 <HomepageCard crypto={"sol"} price={data?.data.amount} />
                 <HomepageCard crypto={"xtz"} price={data?.data.amount} />
         </div>
