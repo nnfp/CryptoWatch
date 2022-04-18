@@ -28,7 +28,6 @@ const Homepage = () => {
   
     return (
       <>
-        
         <div className={styles.searchDiv}>
           <div className={styles.searchBox}>
           <Image src={logo}  className={styles.img}/>
