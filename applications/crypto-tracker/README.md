@@ -27,7 +27,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ## Starting server if not on already
 Instructions:
 
-	1.)	 cd into /instructions
+	1.)	 cd into /setup
 			$ ls 
 				to make sure that "thenewestkey.cer" is there. 
 			$  chmod 400 thenewestkey.cer
