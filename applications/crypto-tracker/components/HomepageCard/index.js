@@ -19,12 +19,10 @@ const HomepageCard = (props) => {
 
         <div className={styles .cardBottom}>
         <h4>
-          Price 
+          <p>Price:</p>
+          <h5>${data?.data.amount} </h5> 
         </h4>
-         <p>
-          ${data?.data.amount} 
-        
-        </p>
+         
         
       </div>
       </div>

@@ -47,11 +47,16 @@ const Homepage = () => {
             </div>
           ))}
           <div className = {styles.contentDiv}>
-           <div className={styles.grid}>
+           <div className={styles.container}>
                 <HomepageCard crypto={"btc"} price={data?.data.amount} />
                 <HomepageCard crypto={"eth"} price={data?.data.amount} />
                 <HomepageCard crypto={"avax"} price={data?.data.amount} />
                 <HomepageCard crypto={"ada"} price={data?.data.amount} />
+                <HomepageCard crypto={"doge"} price={data?.data.amount} />
+                <HomepageCard crypto={"usdt"} price={data?.data.amount} />
+                
+                <HomepageCard crypto={"sol"} price={data?.data.amount} />
+                <HomepageCard crypto={"xtz"} price={data?.data.amount} />
         </div>
        </div>
       </>

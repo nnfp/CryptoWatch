@@ -5,13 +5,13 @@ import NavMobile from "../NavMobile";
 export default function Layout({ children }) {
     return (
         <div>
-            <Navbar/>
-            
+            <Navbar />
+
             <NavMobile>
-         
-                    <NavMobileDrop/>
-                
-                </NavMobile>
+
+                <NavMobileDrop />
+
+            </NavMobile>
             {children}
         </div>
     )

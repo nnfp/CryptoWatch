@@ -9,7 +9,7 @@
     border-radius: 20px;
   
     width: 300px;
-    height: 250px;
+    height: 150px;
     box-shadow: 2px 3px 10px 2px #d6d4d4;
   }
   
@@ -38,19 +38,30 @@
   .cardBottom {
     /* padding: 0.rem; */
     padding-left: 0.5rem;
-    padding-bottom: 1px;
-    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
   
   .card h4 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    display:flex;
+    justify-content: space-between;
     color: rgb(85, 83, 83);
+    margin-top:0.5rem;
+    
   }
   
   .card p {
-    margin: 0;
-    font-size: 1.05rem;
-    line-height: 1.5;
+    margin:0;    
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+  .card h5 {
+    
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    
   }
   
   .buttonDiv {

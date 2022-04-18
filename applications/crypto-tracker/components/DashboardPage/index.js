@@ -87,7 +87,7 @@ const DashboardPage = () => {
       {portfolio ? (
         <>
         <div className={styles.contentDiv}>
-          <div className={styles.grid}>
+          <div className={styles.container}>
             {portfolio.map(function (obj) {
               return (
                 <CardDelete key={obj.id} portfolioId={obj.id} crypto={obj.crypto} amount={obj.amount} deleteCrypto={deleteCrypto} />
