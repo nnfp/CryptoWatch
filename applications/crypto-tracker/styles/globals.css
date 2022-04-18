@@ -20,11 +20,11 @@ a {
 
 
 :root{
-  --bg: #242526;
-  --bg-accent:#484a4d;
-  --tect-color: #dadce1;
+  --bg: #00ADB5;
+  --bg-accent:#000000;
+  --text-color: #dadce1;
   --nav-size: 60px;
-  --border: 1px solid #474a4d;
+  --border: 1px solid #000000;
   --border-radius: 8px;
   --speed: 500ms;
 }

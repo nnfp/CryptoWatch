@@ -2,13 +2,15 @@
     height: var(--nav-size);
     background-color: var(--bg);
     padding: 0 1rem;
+    width: 100%;
 }
 
 .navbarNav{
     max-width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    justify-content: space-evenly;
 }
 
 .navItem{
@@ -19,6 +21,7 @@
 }
 
 .iconButton{
+    color: rgb(0, 0, 0);
     --button-size: calc(var(--nav-size)*0.5);
     width: var(--button-size);
     height: var(var(--button-size));
@@ -38,15 +41,34 @@
 
 .dropdown{
     position: absolute;
+    margin-right: 0%;
     top: 58px;
-    width: 300px;
-    transform: translateX(-45%);
+    left: 1px;
+    /* width: 300px; */
+    width: 100vw;
+    /* transform: translateX(-45%); */
     background-color: var(--bg);
     border: var(--border);
     border-radius: var(--border-radius);
     padding: 1rem;
     overflow: hidden;
+    z-index: 300;
 
+    animation: 0.5s ease-in-out;
+    transform-origin: top right;
+    animation-name: slide;
+}
+/* Always starts off alignment */
+@keyframes slide {
+    0% {
+        transform: scaleY(0);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .menuItem{
@@ -62,6 +84,7 @@
     background-color: #525357;
 }
 
+/* this space ends up not being taken up by nav bar when the screen is too small small */
 .navMobileItem{
     width: calc(var(--nav-size)*0.8);
     display: flex;
@@ -70,10 +93,11 @@
 }
 
 .iconButton{
+    color: white;
     --button-size: calc(var(--nav-size)*0.5);
     width: var(--button-size);
     height: var(--button-size);
-    background-color: #484a4d;
+    background-color: var(--bg);
     border-radius: 50%;
     padding: 5px;
     margin: 2px;
@@ -86,3 +110,28 @@
 .iconButton:hover{
     filter: brightness(1.2);
 }
+
+@media (max-width: 450px) {
+    .iconButton{
+        --button-size: calc(50px*0.5);
+        width: var(--button-size);
+        height: var(--button-size);
+        background-color: var(--bg);
+        border-radius: 50%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: filter 300ms;
+    }
+
+    .navMobileItem{
+        width: calc(var(--nav-size)*0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+ }

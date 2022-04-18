@@ -39,7 +39,8 @@ const Homepage = () => {
           </div>
         </div>
        
-        {(error && <h1 className="headline">{error}</h1>) ||
+      {/* having "headline" set to a style */}
+        {(error && <h1 className={styles.invalid}>{error}</h1>) ||
           (data && (
             <div className={styles.contentDiv}>
 

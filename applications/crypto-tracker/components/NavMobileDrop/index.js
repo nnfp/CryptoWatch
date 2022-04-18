@@ -3,7 +3,7 @@ import Link from "next/link";
 import { supabase } from "../../utils/supabaseClient";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { BsFillCaretDownFill } from "react-icons/Bs";
+import { GiHamburgerMenu } from "react-icons/Gi";
 
 const NavMobileDrop = () => {
   const router = useRouter();
@@ -61,7 +61,7 @@ const NavMobileDrop = () => {
     <>
       <li className={styles.navMobileItem}>
         <a className={styles.iconButton} onClick={handleClick}>
-          <BsFillCaretDownFill />
+          <GiHamburgerMenu />
         </a>
 
         {open && (
