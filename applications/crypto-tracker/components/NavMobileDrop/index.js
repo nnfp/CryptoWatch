@@ -3,7 +3,7 @@ import Link from "next/link";
 import { supabase } from "../../utils/supabaseClient";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { IoMenu } from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavMobileDrop = () => {
   const router = useRouter();
