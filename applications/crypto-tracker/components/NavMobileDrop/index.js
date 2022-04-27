@@ -69,9 +69,9 @@ const NavMobileDrop = () => {
             <Link href="/" passHref>
               <a className={styles.menuItem} onClick={handleClick}>Home</a>
             </Link>
-            <Link href="/about" passHref>
+            {/* <Link href="/about" passHref>
               <a className={styles.menuItem} onClick={handleClick}>About</a>
-            </Link>
+            </Link> */}
             {authenticatedState === "authenticated" ? (
               <>
                 <Link href="/dashboard" passHref>

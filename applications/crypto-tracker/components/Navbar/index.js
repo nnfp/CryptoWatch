@@ -63,9 +63,9 @@ const Navbar = () => {
         <Link href="/" passHref>
           <a className={styles.link}>Home</a>
         </Link>
-        <Link href="/about" passHref>
+        {/* <Link href="/about" passHref>
           <a className={styles.link}>About</a>
-        </Link>
+        </Link> */}
         {authenticatedState === 'authenticated' ? (
           <>
             <Link href="/dashboard" passHref>
