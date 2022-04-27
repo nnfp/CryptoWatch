@@ -66,12 +66,16 @@ const NavMobileDrop = () => {
 
         {open && (
           <div className={styles.dropdown}>
-            <Link href="/" passHref>
-              <a className={styles.menuItem} onClick={handleClick}>Home</a>
-            </Link>
             {/* <Link href="/about" passHref>
               <a className={styles.menuItem} onClick={handleClick}>About</a>
             </Link> */}
+            {authenticatedState === 'not-authenticated' ? (
+              <>
+                <Link href="/" passHref>
+              <a className={styles.menuItem}>Home</a>
+                </Link>
+              </>
+            ) : (null)}
             {authenticatedState === "authenticated" ? (
               <>
                 <Link href="/dashboard" passHref>
