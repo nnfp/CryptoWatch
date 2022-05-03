@@ -4,7 +4,7 @@ import NavMobile from "../NavMobile";
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div >
             <Navbar />
 
             <NavMobile>

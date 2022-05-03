@@ -165,7 +165,8 @@
 
   .searchInput {
 
-    width: 300px;
+   width: 300px;
+   /*width:50vw;*/
 
   }
 
@@ -180,6 +181,7 @@
   .searchInput {
 
     width: 200px;
+    /*width:50vw;*/
 
   }
 
@@ -194,12 +196,20 @@
 @media screen and (max-width: 330px) {
   .contentDiv {
     width: 20rem;
+   /* width:90vw;*/
     justify-content: center;
+    
     margin-left: 1rem;
     margin-right: 1rem;
     margin: 1rem;
 
 
+
+  }
+  .searchInput {
+
+    width: 200px;
+    /*width:50vw;*/
 
   }
 

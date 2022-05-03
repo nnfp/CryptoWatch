@@ -87,7 +87,7 @@
 }
 
 .menuItem:hover{
-    background-color: #525357;
+    background-color: #00c5cf;
 }
 
 /* this space ends up not being taken up by nav bar when the screen is too small small */
@@ -114,7 +114,7 @@
 }
 
 .iconButton:hover{
-    filter: brightness(1.2);
+    filter: brightness(1);
 }
 
 @media (max-width: 450px) {
@@ -141,3 +141,12 @@
     
 
  }
+
+ @media (max-width: 330px) {
+    .dropdown{    
+        width:10rem;
+       right: 0;
+       left:12rem;
+       margin:0;
+    }
+}
