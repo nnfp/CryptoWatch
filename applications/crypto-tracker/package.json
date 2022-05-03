@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
     "@supabase/supabase-js": "^1.30.0",
     "add": "^2.0.6",
     "axios": "^0.26.1",
