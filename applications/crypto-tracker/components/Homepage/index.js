@@ -38,14 +38,31 @@ const Homepage = () => {
           </div>
         </div>
        
-      {/* having "headline" set to a style */}
-        {(error && <h1 className={styles.invalid}>{error}</h1>) ||
-          (data && (
-            <div className={styles.contentDiv}>
+      {/* having "headline" set to a style  this is also search results*/}
+        
 
-              <HomepageCard crypto={data?.data.base} price={data?.data.amount} />
-            </div>
-          ))}
+          {(error && <div className={styles.searchResult}> <h1 className={styles.invalid}>{error} </h1> <hr className={styles.divider}></hr> </div>   ) ||
+            (data && (
+              <div className={styles.searchResult}>
+                Search Result
+                <div className={styles.contentDiv}>
+
+
+                  {/* this is the returned result if the search succeeds */}
+                  <HomepageCard crypto={data?.data.base} price={data?.data.amount} />
+                </div>
+
+                <hr className={styles.divider}></hr>
+              </div>
+              
+              
+            ))}
+
+        
+
+
+
+          {/* This is cards being displayed independent of search */}
           <div className = {styles.contentDiv}>
            <div className={styles.container}>
                 <HomepageCard crypto={"btc"} price={data?.data.amount} />

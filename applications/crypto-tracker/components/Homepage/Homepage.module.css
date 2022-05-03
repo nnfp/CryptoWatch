@@ -53,6 +53,24 @@
   cursor: pointer;
 }
 
+
+.searchResult{
+  text-align: center;
+  font-size: large;
+  color: black;
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 15px;
+  /* box-shadow: 2px 5px 8px 2px #c9c9c9; */
+}
+
+.divider{
+  border: 3px solid gray;
+
+}
+
+
 .invalid{
   text-align: center;
   color: red;

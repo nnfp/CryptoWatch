@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+
 const NavMobileDrop = () => {
   const router = useRouter();
   const [authenticatedState, setAuthenticatedState] =
