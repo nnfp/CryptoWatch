@@ -78,10 +78,15 @@ const DashboardPage = () => {
           </div>
         </div>
       </div>
-      {(error && <h1 className="headline">{error}</h1>) ||
+      {(error && <h1 className={styles.invalid}>{error}</h1>)||
         (data && (
-          <div className={styles.contentDiv}>
-            <CardAdd crypto={data?.data.base} price={data?.data.amount} setInputAmount={setInputAmount} setInputCrypto={setInputCrypto} addCrypto={addCrypto}/>
+
+          <div classname = {styles.test}>
+            Search result
+            <div className={styles.contentDiv}>
+              <CardAdd crypto={data?.data.base} price={data?.data.amount} setInputAmount={setInputAmount} setInputCrypto={setInputCrypto} addCrypto={addCrypto}/>
+            </div>
+            
           </div>
         ))}
       {portfolio ? (
