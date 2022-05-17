@@ -1,50 +1,41 @@
 .card {
-    margin: 1rem;
-    padding: 1.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 2px solid #393E46;
-    border-radius: 8px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    width: 300px;
-    height: 210px;
-    box-shadow: 6px 5px 10px 2px #d6d4d4;
-  }
-  
-  /* .card:hover,
-  .card:focus,
-  .card:active {
-    color: #00ADB5;
-    border-color: #00ADB5;
-  } */
-  
-  .card h2 {
-    margin: 0 0 1rem 0;
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    margin: 0;
-    font-size: 1.25rem;
-    line-height: 1.5;
-  }
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 2px solid #393e46;
+  border-radius: 8px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 300px;
+  height: 210px;
+  box-shadow: 6px 5px 10px 2px #d6d4d4;
+}
 
-  .card input {
-    display:block;
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-   
-  }
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
 
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
 
-  .buttonDiv{
-    display: flex;
-    justify-content: center;
-  }
+.card input {
+  display: block;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
 
-  .buttonDiv button {
-    margin-top: 10px;
-    width: 60px;
-  }
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonDiv button {
+  margin-top: 10px;
+  width: 60px;
+}

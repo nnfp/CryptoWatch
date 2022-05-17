@@ -1,9 +1,8 @@
-.color{
-    padding-top: 5%;
-    background-color: #EEEEEE;
-    height: 80vh;
+.color {
+  padding-top: 5%;
+  background-color: #eeeeee;
+  height: 80vh;
 }
-
 
 .center {
   background-color: #ffffff;
@@ -15,11 +14,9 @@
 }
 
 .header {
-  /* font-family: "sans-serif"; */
   display: flex;
   justify-content: center;
 }
-
 
 .label {
   margin-left: 10px;

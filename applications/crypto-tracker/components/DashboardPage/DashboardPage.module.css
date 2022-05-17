@@ -1,6 +1,6 @@
 .searchDiv {
   height: 350px;
-  /* background-color: #5e0c0c; */
+
   padding: auto;
   display: flex;
 }
@@ -8,14 +8,12 @@
 .searchBox {
   width: 850px;
   height: 100%;
-  /* background-color: #dadada; */
+
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid #393E46;
-    border-radius: 8px; */
 }
 
 .searchInput {
@@ -27,8 +25,6 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   box-shadow: 0px 5px 8px 2px #c9c9c9;
-
-
 }
 
 .searchInput:focus {
@@ -38,7 +34,7 @@
 
 .searchButton {
   color: white;
-  background-color: #00ADB5;
+  background-color: #00adb5;
   width: 100px;
   height: 40px;
   border: none;
@@ -53,15 +49,35 @@
   cursor: pointer;
 }
 
-.grid {
+.invalid {
+  text-align: center;
+  color: red;
+  animation: 0.2s;
+  animation-name: wiggle;
+}
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
+.grid {
   display: flex;
   align-items: flex-start;
-  /* justify-content: center; */
 
   flex-wrap: wrap;
-  /*max-width: 1400px;*/
-
 }
 .container {
   display: grid;
@@ -77,7 +93,6 @@
 }
 
 .contentDiv {
-  
   display: flex;
   justify-content: center;
   margin-left: 1rem;
@@ -91,21 +106,17 @@
   user-select: none;
 }
 
-
-@media screen and (min-width: 3000px){  
-    
+@media screen and (min-width: 3000px) {
   .contentDiv {
     width: 100%;
     justify-content: center;
     margin-left: 1rem;
     margin-right: 1rem;
     margin: 1rem;
-
   }
-  .grid{
-    width:100%;
+  .grid {
+    width: 100%;
   }
-
 }
 @media screen and (min-width: 1400px) and (max-width: 3000px) {
   .grid {
@@ -132,34 +143,24 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 600px) {
-
   .searchInput {
-
     width: 300px;
-
   }
 
   .grid {
     width: 335px;
   }
-
 }
 
 @media screen and (min-width: 330px) and (max-width: 500px) {
-
   .searchInput {
-
     width: 200px;
-
   }
 
   .grid {
     width: 335px;
   }
-
 }
-
-
 
 @media screen and (max-width: 330px) {
   .contentDiv {
@@ -168,14 +169,9 @@
     margin-left: 1rem;
     margin-right: 1rem;
     margin: 1rem;
-
-
-
   }
 
   .grid {
     align-items: center;
-
   }
-
 }
