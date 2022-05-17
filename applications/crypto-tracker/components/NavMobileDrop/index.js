@@ -69,17 +69,19 @@ const NavMobileDrop = () => {
             {/* <Link href="/about" passHref>
               <a className={styles.menuItem} onClick={handleClick}>About</a>
             </Link> */}
-            {authenticatedState === 'not-authenticated' ? (
+            {authenticatedState === "not-authenticated" ? (
               <>
                 <Link href="/" passHref>
-              <a className={styles.menuItem}>Home</a>
+                  <a className={styles.menuItem}>Home</a>
                 </Link>
               </>
-            ) : (null)}
+            ) : null}
             {authenticatedState === "authenticated" ? (
               <>
                 <Link href="/dashboard" passHref>
-                  <a className={styles.menuItem} onClick={handleClick}>Dashboard</a>
+                  <a className={styles.menuItem} onClick={handleClick}>
+                    Dashboard
+                  </a>
                 </Link>
                 <Link href="/" passHref>
                   <a className={styles.menuItem} onClick={signOut}>
@@ -89,7 +91,9 @@ const NavMobileDrop = () => {
               </>
             ) : (
               <Link href="/login" passHref>
-                <a className={styles.menuItem} onClick={handleClick}>Login</a>
+                <a className={styles.menuItem} onClick={handleClick}>
+                  Login
+                </a>
               </Link>
             )}
           </div>

@@ -1,6 +1,7 @@
 import styles from "./Card.module.css";
 import useCoinbaseAPI from "../../utils/useCoinbaseAPI";
 import { useState, useEffect } from "react";
+
 const Card = (props) => {
   const [cryptoBase, setCryptoBase] = useState();
   const [cryptoAmount, setCryptoAmount] = useState();
@@ -8,21 +9,14 @@ const Card = (props) => {
   const crypto = props.crypto;
   const amount = props.amount;
   const data = null;
-  // const { getTodayPriceTwo, setSymbol, data, error } = useCoinbaseAPI();
+
   const { getTodayPrice } = useCoinbaseAPI();
 
-  // On submit handler
-
-  // const handleSubmit = () => addCrypto();
-
-  // On input change handler
-
   useEffect(() => {
+    // fetches crypto data
     const fetchData = async () => {
-      // await setSymbol("eth-usd");
-      // const result = await getTodayPrice("eth-usd");
       data = await getTodayPrice(crypto);
-      console.log(data);
+      // console.log(data);
       data ? setCryptoBase(data.base) : null;
       data ? setCryptoAmount(data.amount) : null;
       data ? setCryptoCurrency(data.currency) : null;

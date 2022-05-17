@@ -4,7 +4,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: rgb(38, 140, 165); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,9 +54,7 @@
 .loginField:focus-within {
   border: 1px solid;
   border-color: #00adb5b3;
-
   box-shadow: 0 0 8px 1px (0, 173, 181);
-  /* All the borders by using the spread properties */
 }
 
 .loginInput {
@@ -75,9 +72,9 @@
 }
 
 .loginButton {
-  background-color: #00ADB5;
+  background-color: #00adb5;
   color: #ffffff;
-  border-color: #00ADB5;
+  border-color: #00adb5;
   border-style: solid;
   height: 40px;
   width: 290px;
@@ -87,8 +84,8 @@
 }
 
 @media (max-width: 800px) {
-  .loginHeader{
-      font-size: 25px;
-      font-weight: 100%;
+  .loginHeader {
+    font-size: 25px;
+    font-weight: 100%;
   }
 }

@@ -2,6 +2,7 @@ import styles from "./NavMobile.module.css";
 import Link from "next/link";
 import logo from "../../public/assets/spectacoins-crop.png";
 import Image from "next/image";
+
 const NavMobile = (props) => {
   return (
     <>
