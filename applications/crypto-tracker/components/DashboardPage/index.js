@@ -7,6 +7,7 @@ import { supabase } from "../../utils/supabaseClient";
 import Image from "next/image";
 import logo from "../../public/assets/spectacoins-logos_black_cropped.png";
 import { useRouter } from "next/router";
+import Stats from "../Stats";
 
 const DashboardPage = () => {
   const user = supabase.auth.user();
@@ -66,6 +67,7 @@ const DashboardPage = () => {
 
   return (
     <>
+      <Stats />
       <div className={styles.searchDiv}>
         <div className={styles.searchBox}>
           <Image src={logo} className={styles.img} />
