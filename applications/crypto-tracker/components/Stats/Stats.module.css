@@ -1,0 +1,62 @@
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* padding: 16px; */
+  text-align: center;
+  background-color: #03888f;
+  color: white;
+  height: 80px;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 950px) {
+  .card {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .card {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .card {
+    font-size: 18px;
+  }
+}
